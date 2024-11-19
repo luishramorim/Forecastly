@@ -1,10 +1,3 @@
-//
-//  README.md
-//  Forecastly
-//
-//  Created by Luis Amorim on 19/11/2024.
-//
-
 # Forecastly 🌦️
 
 **Forecastly** is an open-source weather forecast application built with **SwiftUI**, **Swift Data**, and **CloudKit**. It provides real-time weather updates, a clean and modern user interface, and offline capabilities through local data storage.
