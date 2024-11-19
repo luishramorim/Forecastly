@@ -11,7 +11,7 @@
 
 ## Features
 
-- **Live Weather Updates**: Get accurate and up-to-date weather forecasts for your location.
+- **Live Weather Updates**: Get accurate and up-to-date weather forecasts using WeatherKit.
 - **Modern Design**: Built with SwiftUI, providing a responsive and visually appealing interface.
 - **Offline Support**: Store weather data locally using Swift Data for access when offline.
 - **CloudKit Integration**: Sync preferences and saved locations across your devices via iCloud.
@@ -22,12 +22,19 @@
 - **SwiftUI**: For building the user interface.
 - **Swift Data**: For managing local data storage efficiently.
 - **CloudKit**: For syncing user data across devices.
-- **OpenWeather API** (or your chosen API): For fetching weather data.
+- **WeatherKit**: Native Apple framework for fetching weather data.
 
 ## Getting Started
 
 ### Prerequisites
 
 - **Xcode**: Version 15.0 or later.
-- **iOS**: Target version 15.0 or higher.
+- **iOS**: Target version 16.0 or higher.
 - An active iCloud account for CloudKit functionality.
+- **WeatherKit Access**: Ensure you have an Apple Developer Account to enable WeatherKit capabilities.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/luishramorim/forecastly.git
